@@ -1,8 +1,15 @@
 import { NavLink } from "react-router-dom";
 import { Home, User, FolderOpen, Award, Mail, FileText } from "lucide-react";
 
+interface NavItem {
+  name: string;
+  path: string;
+  icon: typeof Home;
+  isRoute: boolean;
+}
+
 const Navigation = () => {
-  const navItems = [
+  const navItems: NavItem[] = [
     { name: "Home", path: "/", icon: Home, isRoute: true },
     { name: "About Me", path: "#about", icon: User, isRoute: false },
     { name: "Projects", path: "/projects", icon: FolderOpen, isRoute: true },
@@ -11,7 +18,7 @@ const Navigation = () => {
     { name: "Resume", path: "https://drive.google.com/your-resume-link", icon: FileText, isRoute: false },
   ];
 
-  const handleNavClick = (item: typeof navItems[0]) => {
+  const handleNavClick = (item: NavItem) => {
     if (item.isRoute) return;
     
     if (item.name === "Resume") {

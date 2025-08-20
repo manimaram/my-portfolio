@@ -1,6 +1,9 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import { Mail, FileText } from "lucide-react";
+import { Mail, FileText, ExternalLink, Award, Send, User, MessageCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 
 const Index = () => {
   return (
@@ -40,20 +43,69 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">Certifications</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {[
-              "AWS Solutions Architect",
-              "Google Cloud Professional",
-              "React Developer Certification",
-              "Docker Certified Associate",
-              "Kubernetes Administrator",
-              "MongoDB Professional"
+              {
+                name: "AWS Solutions Architect Associate",
+                issuer: "Amazon Web Services",
+                year: "2024",
+                certificateUrl: "https://your-certificate-link-1"
+              },
+              {
+                name: "Google Cloud Professional Cloud Architect",
+                issuer: "Google Cloud",
+                year: "2023",
+                certificateUrl: "https://your-certificate-link-2"
+              },
+              {
+                name: "React Developer Professional Certificate",
+                issuer: "Meta",
+                year: "2023",
+                certificateUrl: "https://your-certificate-link-3"
+              },
+              {
+                name: "Docker Certified Associate",
+                issuer: "Docker Inc.",
+                year: "2024",
+                certificateUrl: "https://your-certificate-link-4"
+              },
+              {
+                name: "Certified Kubernetes Administrator",
+                issuer: "Cloud Native Computing Foundation",
+                year: "2023",
+                certificateUrl: "https://your-certificate-link-5"
+              },
+              {
+                name: "MongoDB Professional Developer",
+                issuer: "MongoDB University",
+                year: "2024",
+                certificateUrl: "https://your-certificate-link-6"
+              }
             ].map((cert, index) => (
-              <div key={index} className="project-card text-center">
-                <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-background">✓</span>
+              <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Award size={24} className="text-background" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-bold text-foreground mb-1 group-hover:text-primary transition-colors">
+                      {cert.name}
+                    </h3>
+                    <p className="text-sm text-muted-foreground mb-1">
+                      Issued by {cert.issuer}
+                    </p>
+                    <p className="text-xs text-muted-foreground mb-3">
+                      Year: {cert.year}
+                    </p>
+                    <button
+                      onClick={() => window.open(cert.certificateUrl, '_blank')}
+                      className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn"
+                    >
+                      <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
+                      <span>Access Certificate</span>
+                    </button>
+                  </div>
                 </div>
-                <h3 className="font-semibold text-foreground">{cert}</h3>
               </div>
             ))}
           </div>
@@ -67,21 +119,89 @@ const Index = () => {
             <span className="gradient-text">Get In Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Ready to work together? Let's discuss your next project and bring your ideas to life.
+            Have a question or want to collaborate? I'd love to hear from you. Send me a message!
           </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          
+          {/* Contact Form */}
+          <div className="max-w-2xl mx-auto">
+            <form className="project-card text-left space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                    <User size={16} className="inline mr-2" />
+                    Name
+                  </label>
+                  <Input
+                    id="name"
+                    type="text"
+                    placeholder="Your name"
+                    className="bg-background/50 border-border/50 focus:border-primary"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                    <Mail size={16} className="inline mr-2" />
+                    Email
+                  </label>
+                  <Input
+                    id="email"
+                    type="email"
+                    placeholder="your.email@example.com"
+                    className="bg-background/50 border-border/50 focus:border-primary"
+                  />
+                </div>
+              </div>
+              <div>
+                <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
+                  <MessageCircle size={16} className="inline mr-2" />
+                  Subject
+                </label>
+                <Input
+                  id="subject"
+                  type="text"
+                  placeholder="What's this about?"
+                  className="bg-background/50 border-border/50 focus:border-primary"
+                />
+              </div>
+              <div>
+                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                  Message
+                </label>
+                <Textarea
+                  id="message"
+                  placeholder="Tell me about your project or just say hello..."
+                  rows={6}
+                  className="bg-background/50 border-border/50 focus:border-primary"
+                />
+              </div>
+              <Button 
+                type="submit" 
+                className="w-full bg-gradient-primary hover:opacity-90 text-background font-semibold"
+              >
+                <Send size={18} className="mr-2" />
+                Send Message
+              </Button>
+            </form>
+          </div>
+          
+          {/* Alternative Contact Methods */}
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12">
             <a href="mailto:your.email@example.com" className="btn-hero glow-border group">
               <span className="flex items-center space-x-2">
                 <Mail size={20} />
-                <span>Send Email</span>
+                <span>Direct Email</span>
               </span>
             </a>
-            <a href="/resume" className="btn-hero glow-border group">
+            <button
+              onClick={() => window.open('https://drive.google.com/your-resume-link', '_blank')}
+              className="btn-hero glow-border group"
+            >
               <span className="flex items-center space-x-2">
                 <FileText size={20} />
-                <span>View Resume</span>
+                <span>Download Resume</span>
+                <ExternalLink size={16} className="group-hover:scale-110 transition-transform" />
               </span>
-            </a>
+            </button>
           </div>
         </div>
       </section>
