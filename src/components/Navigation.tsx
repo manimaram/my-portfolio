@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import { Home, User, FolderOpen, Award, Mail, FileText } from "lucide-react";
 
 interface NavItem {
@@ -9,6 +9,9 @@ interface NavItem {
 }
 
 const Navigation = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  
   const navItems: NavItem[] = [
     { name: "Home", path: "/", icon: Home, isRoute: true },
     { name: "About Me", path: "#about", icon: User, isRoute: false },
@@ -26,9 +29,22 @@ const Navigation = () => {
       return;
     }
     
-    const element = document.querySelector(item.path);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    // If not on home page, navigate to home first, then scroll
+    if (location.pathname !== '/') {
+      navigate('/');
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        const element = document.querySelector(item.path);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      // Already on home page, just scroll
+      const element = document.querySelector(item.path);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
