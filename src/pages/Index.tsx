@@ -16,22 +16,18 @@ const Index = () => {
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              I'm a passionate full-stack developer with expertise in modern web technologies, 
-              cloud computing, and software architecture. I love creating innovative solutions 
-              that solve real-world problems and deliver exceptional user experiences.
+              I'm a passionate computer science student with a strong interest in modern web technologies, 
+              cloud computing, and software development. I enjoy learning new technologies and building 
+              projects that solve real-world problems while continuously expanding my technical skills.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
               <div className="project-card text-center">
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <div className="text-muted-foreground">Projects Completed</div>
+                <div className="text-3xl font-bold text-primary mb-2">Computer Science</div>
+                <div className="text-muted-foreground">Student</div>
               </div>
               <div className="project-card text-center">
-                <div className="text-3xl font-bold text-secondary mb-2">3+</div>
-                <div className="text-muted-foreground">Years Experience</div>
-              </div>
-              <div className="project-card text-center">
-                <div className="text-3xl font-bold text-accent mb-2">15+</div>
-                <div className="text-muted-foreground">Technologies Mastered</div>
+                <div className="text-3xl font-bold text-secondary mb-2">10+</div>
+                <div className="text-muted-foreground">Personal Projects</div>
               </div>
             </div>
           </div>

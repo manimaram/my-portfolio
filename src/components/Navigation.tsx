@@ -3,13 +3,27 @@ import { Home, User, FolderOpen, Award, Mail, FileText } from "lucide-react";
 
 const Navigation = () => {
   const navItems = [
-    { name: "Home", path: "/", icon: Home },
-    { name: "About Me", path: "/about", icon: User },
-    { name: "Projects", path: "/projects", icon: FolderOpen },
-    { name: "Certifications", path: "/certifications", icon: Award },
-    { name: "Contact", path: "/contact", icon: Mail },
-    { name: "Resume", path: "/resume", icon: FileText },
+    { name: "Home", path: "/", icon: Home, isRoute: true },
+    { name: "About Me", path: "#about", icon: User, isRoute: false },
+    { name: "Projects", path: "/projects", icon: FolderOpen, isRoute: true },
+    { name: "Certifications", path: "#certifications", icon: Award, isRoute: false },
+    { name: "Contact", path: "#contact", icon: Mail, isRoute: false },
+    { name: "Resume", path: "https://drive.google.com/your-resume-link", icon: FileText, isRoute: false },
   ];
+
+  const handleNavClick = (item: typeof navItems[0]) => {
+    if (item.isRoute) return;
+    
+    if (item.name === "Resume") {
+      window.open(item.path, '_blank');
+      return;
+    }
+    
+    const element = document.querySelector(item.path);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
@@ -25,19 +39,32 @@ const Navigation = () => {
             <div className="ml-10 flex items-baseline space-x-4">
               {navItems.map((item) => {
                 const Icon = item.icon;
+                if (item.isRoute) {
+                  return (
+                    <NavLink
+                      key={item.name}
+                      to={item.path}
+                      className={({ isActive }) =>
+                        `btn-nav flex items-center space-x-2 ${
+                          isActive ? "text-primary bg-primary/10" : ""
+                        }`
+                      }
+                    >
+                      <Icon size={18} />
+                      <span>{item.name}</span>
+                    </NavLink>
+                  );
+                }
+                
                 return (
-                  <NavLink
+                  <button
                     key={item.name}
-                    to={item.path}
-                    className={({ isActive }) =>
-                      `btn-nav flex items-center space-x-2 ${
-                        isActive ? "text-primary bg-primary/10" : ""
-                      }`
-                    }
+                    onClick={() => handleNavClick(item)}
+                    className="btn-nav flex items-center space-x-2"
                   >
                     <Icon size={18} />
                     <span>{item.name}</span>
-                  </NavLink>
+                  </button>
                 );
               })}
             </div>
