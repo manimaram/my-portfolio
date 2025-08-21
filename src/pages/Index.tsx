@@ -50,15 +50,9 @@ const Index = () => {
                   <Award size={24} className="text-background" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
-                    AWS Solutions Architect Associate
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-1">
-                    Issued by Amazon Web Services
-                  </p>
-                  <p className="text-xs text-muted-foreground mb-3">
-                    Year: 2024
-                  </p>
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">FULL STACK WEB DEVELOPMENT</h3>
+                  <p className="text-sm text-muted-foreground mb-1">Issued by Edu Skills</p>
+                  <p className="text-xs text-muted-foreground mb-3">July 2025</p>
                   <button onClick={() => window.open('https://your-certificate-link-1', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
@@ -73,15 +67,9 @@ const Index = () => {
                   <Award size={24} className="text-background" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
-                    Google Cloud Professional Cloud Architect
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-1">
-                    Issued by Google Cloud
-                  </p>
-                  <p className="text-xs text-muted-foreground mb-3">
-                    Year: 2023
-                  </p>
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">COMPUTER HARDWARE</h3>
+                  <p className="text-sm text-muted-foreground mb-1">Issued by Cisco</p>
+                  <p className="text-xs text-muted-foreground mb-3">May 2025</p>
                   <button onClick={() => window.open('https://your-certificate-link-2', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
@@ -96,15 +84,9 @@ const Index = () => {
                   <Award size={24} className="text-background" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
-                    React Developer Professional Certificate
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-1">
-                    Issued by Meta
-                  </p>
-                  <p className="text-xs text-muted-foreground mb-3">
-                    Year: 2023
-                  </p>
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">AI TOOLS EXPERT</h3>
+                  <p className="text-sm text-muted-foreground mb-1">Issued by Be 10x</p>
+                  <p className="text-xs text-muted-foreground mb-3">May 2025</p>
                   <button onClick={() => window.open('https://your-certificate-link-3', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
@@ -119,15 +101,9 @@ const Index = () => {
                   <Award size={24} className="text-background" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
-                    Docker Certified Associate
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-1">
-                    Issued by Docker Inc.
-                  </p>
-                  <p className="text-xs text-muted-foreground mb-3">
-                    Year: 2024
-                  </p>
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">LANGUAGE PROFICENCY CERTIFICATE</h3>
+                  <p className="text-sm text-muted-foreground mb-1">Issued by EF SET</p>
+                  <p className="text-xs text-muted-foreground mb-3">May 2025</p>
                   <button onClick={() => window.open('https://your-certificate-link-4', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
@@ -142,15 +118,9 @@ const Index = () => {
                   <Award size={24} className="text-background" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
-                    Certified Kubernetes Administrator
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-1">
-                    Issued by Cloud Native Computing Foundation
-                  </p>
-                  <p className="text-xs text-muted-foreground mb-3">
-                    Year: 2023
-                  </p>
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">HTML</h3>
+                  <p className="text-sm text-muted-foreground mb-1">Issued by Simplilearn</p>
+                  <p className="text-xs text-muted-foreground mb-3">April 2025</p>
                   <button onClick={() => window.open('https://your-certificate-link-5', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
@@ -165,15 +135,9 @@ const Index = () => {
                   <Award size={24} className="text-background" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
-                    MongoDB Professional Developer
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-1">
-                    Issued by MongoDB University
-                  </p>
-                  <p className="text-xs text-muted-foreground mb-3">
-                    Year: 2024
-                  </p>
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">CSS</h3>
+                  <p className="text-sm text-muted-foreground mb-1">Issued by Simplilearn</p>
+                  <p className="text-xs text-muted-foreground mb-3">April 2025</p>
                   <button onClick={() => window.open('https://your-certificate-link-6', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
