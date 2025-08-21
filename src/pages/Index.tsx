@@ -51,7 +51,7 @@ const Index = () => {
                   </div>
                   <div className="flex-1 min-w-0">
                     <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
-                      
+                      {cert.name}
                     </h3>
                     <p className="text-sm text-muted-foreground mb-1">
                       Issued by {cert.issuer}
