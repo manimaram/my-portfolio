@@ -4,6 +4,8 @@ import { Mail, FileText, ExternalLink, Award, Send, User, MessageCircle } from "
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { certifications } from "@/data/certifications";
+import { achievements } from "@/data/achievements";
 const Index = () => {
   return <div className="min-h-screen">
       <Navigation />
@@ -42,37 +44,7 @@ const Index = () => {
             <span className="gradient-text">Certifications</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {[{
-            name: "AWS Solutions Architect Associate",
-            issuer: "Amazon Web Services",
-            year: "2024",
-            certificateUrl: "https://your-certificate-link-1"
-          }, {
-            name: "Google Cloud Professional Cloud Architect",
-            issuer: "Google Cloud",
-            year: "2023",
-            certificateUrl: "https://your-certificate-link-2"
-          }, {
-            name: "React Developer Professional Certificate",
-            issuer: "Meta",
-            year: "2023",
-            certificateUrl: "https://your-certificate-link-3"
-          }, {
-            name: "Docker Certified Associate",
-            issuer: "Docker Inc.",
-            year: "2024",
-            certificateUrl: "https://your-certificate-link-4"
-          }, {
-            name: "Certified Kubernetes Administrator",
-            issuer: "Cloud Native Computing Foundation",
-            year: "2023",
-            certificateUrl: "https://your-certificate-link-5"
-          }, {
-            name: "MongoDB Professional Developer",
-            issuer: "MongoDB University",
-            year: "2024",
-            certificateUrl: "https://your-certificate-link-6"
-          }].map((cert, index) => <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300">
+            {certifications.map((cert, index) => <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
                     <Award size={24} className="text-background" />
@@ -105,37 +77,7 @@ const Index = () => {
             <span className="gradient-text">Achievements</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {[{
-            title: "Dean's List",
-            description: "Recognized for academic excellence with GPA above 3.8",
-            year: "2023-2024",
-            icon: "🏆"
-          }, {
-            title: "Hackathon Winner",
-            description: "First place in University Tech Innovation Challenge",
-            year: "2024",
-            icon: "💡"
-          }, {
-            title: "Open Source Contributor",
-            description: "Active contributor to multiple GitHub projects with 100+ commits",
-            year: "2023-2024",
-            icon: "🔧"
-          }, {
-            title: "Technical Blog Writer",
-            description: "Published 15+ technical articles on modern web development",
-            year: "2023-2024",
-            icon: "✍️"
-          }, {
-            title: "Student Leader",
-            description: "Led Computer Science Student Association initiatives",
-            year: "2023-2024",
-            icon: "👥"
-          }, {
-            title: "Scholarship Recipient",
-            description: "Merit-based scholarship for outstanding academic performance",
-            year: "2023",
-            icon: "🎓"
-          }].map((achievement, index) => <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
+            {achievements.map((achievement, index) => <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
                 
                 <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
                   {achievement.title}
