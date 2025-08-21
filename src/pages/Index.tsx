@@ -192,16 +192,59 @@ const Index = () => {
             <span className="gradient-text">Achievements</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {achievements.map((achievement, index) => <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
-                
-                <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
-                  {achievement.title}
-                </h3>
-                <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                  {achievement.description}
-                </p>
-                
-              </div>)}
+            <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                Dean's List
+              </h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+                Recognized for academic excellence with GPA above 3.8
+              </p>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                Hackathon Winner
+              </h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+                First place in University Tech Innovation Challenge
+              </p>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                Open Source Contributor
+              </h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+                Active contributor to multiple GitHub projects with 100+ commits
+              </p>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                Technical Blog Writer
+              </h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+                Published 15+ technical articles on modern web development
+              </p>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                Student Leader
+              </h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+                Led Computer Science Student Association initiatives
+              </p>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                Scholarship Recipient
+              </h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+                Merit-based scholarship for outstanding academic performance
+              </p>
+            </div>
           </div>
         </div>
       </section>
