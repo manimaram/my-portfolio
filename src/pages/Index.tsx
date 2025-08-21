@@ -98,6 +98,68 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Achievements Section */}
+      <section id="achievements" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <span className="gradient-text">Achievements</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {[
+              {
+                title: "Dean's List",
+                description: "Recognized for academic excellence with GPA above 3.8",
+                year: "2023-2024",
+                icon: "🏆"
+              },
+              {
+                title: "Hackathon Winner",
+                description: "First place in University Tech Innovation Challenge",
+                year: "2024",
+                icon: "💡"
+              },
+              {
+                title: "Open Source Contributor",
+                description: "Active contributor to multiple GitHub projects with 100+ commits",
+                year: "2023-2024",
+                icon: "🔧"
+              },
+              {
+                title: "Technical Blog Writer",
+                description: "Published 15+ technical articles on modern web development",
+                year: "2023-2024",
+                icon: "✍️"
+              },
+              {
+                title: "Student Leader",
+                description: "Led Computer Science Student Association initiatives",
+                year: "2023-2024",
+                icon: "👥"
+              },
+              {
+                title: "Scholarship Recipient",
+                description: "Merit-based scholarship for outstanding academic performance",
+                year: "2023",
+                icon: "🎓"
+              }
+            ].map((achievement, index) => (
+              <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
+                <div className="text-4xl mb-4">{achievement.icon}</div>
+                <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                  {achievement.title}
+                </h3>
+                <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+                  {achievement.description}
+                </p>
+                <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium">
+                  {achievement.year}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-16">
