@@ -4,10 +4,8 @@ import { Mail, FileText, ExternalLink, Award, Send, User, MessageCircle } from "
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Navigation />
       <Hero />
       
@@ -25,12 +23,12 @@ const Index = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
               <div className="project-card text-center">
-                <div className="text-3xl font-bold text-primary mb-2">Computer Science</div>
+                <div className="text-3xl font-bold text-primary mb-2">Information Technology</div>
                 <div className="text-muted-foreground">Student</div>
               </div>
               <div className="project-card text-center">
                 <div className="text-3xl font-bold text-secondary mb-2">10+</div>
-                <div className="text-muted-foreground">Personal Projects</div>
+                <div className="text-muted-foreground">Skills Mastered</div>
               </div>
             </div>
           </div>
@@ -44,45 +42,37 @@ const Index = () => {
             <span className="gradient-text">Certifications</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {[
-              {
-                name: "AWS Solutions Architect Associate",
-                issuer: "Amazon Web Services",
-                year: "2024",
-                certificateUrl: "https://your-certificate-link-1"
-              },
-              {
-                name: "Google Cloud Professional Cloud Architect",
-                issuer: "Google Cloud",
-                year: "2023",
-                certificateUrl: "https://your-certificate-link-2"
-              },
-              {
-                name: "React Developer Professional Certificate",
-                issuer: "Meta",
-                year: "2023",
-                certificateUrl: "https://your-certificate-link-3"
-              },
-              {
-                name: "Docker Certified Associate",
-                issuer: "Docker Inc.",
-                year: "2024",
-                certificateUrl: "https://your-certificate-link-4"
-              },
-              {
-                name: "Certified Kubernetes Administrator",
-                issuer: "Cloud Native Computing Foundation",
-                year: "2023",
-                certificateUrl: "https://your-certificate-link-5"
-              },
-              {
-                name: "MongoDB Professional Developer",
-                issuer: "MongoDB University",
-                year: "2024",
-                certificateUrl: "https://your-certificate-link-6"
-              }
-            ].map((cert, index) => (
-              <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300">
+            {[{
+            name: "AWS Solutions Architect Associate",
+            issuer: "Amazon Web Services",
+            year: "2024",
+            certificateUrl: "https://your-certificate-link-1"
+          }, {
+            name: "Google Cloud Professional Cloud Architect",
+            issuer: "Google Cloud",
+            year: "2023",
+            certificateUrl: "https://your-certificate-link-2"
+          }, {
+            name: "React Developer Professional Certificate",
+            issuer: "Meta",
+            year: "2023",
+            certificateUrl: "https://your-certificate-link-3"
+          }, {
+            name: "Docker Certified Associate",
+            issuer: "Docker Inc.",
+            year: "2024",
+            certificateUrl: "https://your-certificate-link-4"
+          }, {
+            name: "Certified Kubernetes Administrator",
+            issuer: "Cloud Native Computing Foundation",
+            year: "2023",
+            certificateUrl: "https://your-certificate-link-5"
+          }, {
+            name: "MongoDB Professional Developer",
+            issuer: "MongoDB University",
+            year: "2024",
+            certificateUrl: "https://your-certificate-link-6"
+          }].map((cert, index) => <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
                     <Award size={24} className="text-background" />
@@ -97,17 +87,13 @@ const Index = () => {
                     <p className="text-xs text-muted-foreground mb-3">
                       Year: {cert.year}
                     </p>
-                    <button
-                      onClick={() => window.open(cert.certificateUrl, '_blank')}
-                      className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn"
-                    >
+                    <button onClick={() => window.open(cert.certificateUrl, '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                       <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                       <span>Access Certificate</span>
                     </button>
                   </div>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -131,24 +117,14 @@ const Index = () => {
                     <User size={16} className="inline mr-2" />
                     Name
                   </label>
-                  <Input
-                    id="name"
-                    type="text"
-                    placeholder="Your name"
-                    className="bg-background/50 border-border/50 focus:border-primary"
-                  />
+                  <Input id="name" type="text" placeholder="Your name" className="bg-background/50 border-border/50 focus:border-primary" />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
                     <Mail size={16} className="inline mr-2" />
                     Email
                   </label>
-                  <Input
-                    id="email"
-                    type="email"
-                    placeholder="your.email@example.com"
-                    className="bg-background/50 border-border/50 focus:border-primary"
-                  />
+                  <Input id="email" type="email" placeholder="your.email@example.com" className="bg-background/50 border-border/50 focus:border-primary" />
                 </div>
               </div>
               <div>
@@ -156,28 +132,15 @@ const Index = () => {
                   <MessageCircle size={16} className="inline mr-2" />
                   Subject
                 </label>
-                <Input
-                  id="subject"
-                  type="text"
-                  placeholder="What's this about?"
-                  className="bg-background/50 border-border/50 focus:border-primary"
-                />
+                <Input id="subject" type="text" placeholder="What's this about?" className="bg-background/50 border-border/50 focus:border-primary" />
               </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
                   Message
                 </label>
-                <Textarea
-                  id="message"
-                  placeholder="Tell me about your project or just say hello..."
-                  rows={6}
-                  className="bg-background/50 border-border/50 focus:border-primary"
-                />
+                <Textarea id="message" placeholder="Tell me about your project or just say hello..." rows={6} className="bg-background/50 border-border/50 focus:border-primary" />
               </div>
-              <Button 
-                type="submit" 
-                className="w-full bg-gradient-primary hover:opacity-90 text-background font-semibold"
-              >
+              <Button type="submit" className="w-full bg-gradient-primary hover:opacity-90 text-background font-semibold">
                 <Send size={18} className="mr-2" />
                 Send Message
               </Button>
@@ -192,10 +155,7 @@ const Index = () => {
                 <span>Direct Email</span>
               </span>
             </a>
-            <button
-              onClick={() => window.open('https://drive.google.com/your-resume-link', '_blank')}
-              className="btn-hero glow-border group"
-            >
+            <button onClick={() => window.open('https://drive.google.com/your-resume-link', '_blank')} className="btn-hero glow-border group">
               <span className="flex items-center space-x-2">
                 <FileText size={20} />
                 <span>Download Resume</span>
@@ -205,8 +165,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
