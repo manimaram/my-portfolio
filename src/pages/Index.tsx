@@ -44,28 +44,143 @@ const Index = () => {
             <span className="gradient-text">Certifications</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {certifications.map((cert, index) => <div key={index} className="project-card group hover:border-primary/50 transition-all duration-300">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Award size={24} className="text-background" />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
-                      {cert.name}
-                    </h3>
-                    <p className="text-sm text-muted-foreground mb-1">
-                      Issued by {cert.issuer}
-                    </p>
-                    <p className="text-xs text-muted-foreground mb-3">
-                      Year: {cert.year}
-                    </p>
-                    <button onClick={() => window.open(cert.certificateUrl, '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
-                      <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
-                      <span>Access Certificate</span>
-                    </button>
-                  </div>
+            <div className="project-card group hover:border-primary/50 transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award size={24} className="text-background" />
                 </div>
-              </div>)}
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
+                    AWS Solutions Architect Associate
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-1">
+                    Issued by Amazon Web Services
+                  </p>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    Year: 2024
+                  </p>
+                  <button onClick={() => window.open('https://your-certificate-link-1', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                    <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
+                    <span>Access Certificate</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award size={24} className="text-background" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
+                    Google Cloud Professional Cloud Architect
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-1">
+                    Issued by Google Cloud
+                  </p>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    Year: 2023
+                  </p>
+                  <button onClick={() => window.open('https://your-certificate-link-2', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                    <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
+                    <span>Access Certificate</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award size={24} className="text-background" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
+                    React Developer Professional Certificate
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-1">
+                    Issued by Meta
+                  </p>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    Year: 2023
+                  </p>
+                  <button onClick={() => window.open('https://your-certificate-link-3', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                    <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
+                    <span>Access Certificate</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award size={24} className="text-background" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
+                    Docker Certified Associate
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-1">
+                    Issued by Docker Inc.
+                  </p>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    Year: 2024
+                  </p>
+                  <button onClick={() => window.open('https://your-certificate-link-4', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                    <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
+                    <span>Access Certificate</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award size={24} className="text-background" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
+                    Certified Kubernetes Administrator
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-1">
+                    Issued by Cloud Native Computing Foundation
+                  </p>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    Year: 2023
+                  </p>
+                  <button onClick={() => window.open('https://your-certificate-link-5', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                    <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
+                    <span>Access Certificate</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award size={24} className="text-background" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
+                    MongoDB Professional Developer
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-1">
+                    Issued by MongoDB University
+                  </p>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    Year: 2024
+                  </p>
+                  <button onClick={() => window.open('https://your-certificate-link-6', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                    <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
+                    <span>Access Certificate</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
