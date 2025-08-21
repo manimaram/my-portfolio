@@ -50,7 +50,7 @@ const Index = () => {
                     <Award size={24} className="text-background" />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h3 className="font-bold text-foreground mb-1 group-hover:text-primary transition-colors">
+                    <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">
                       {cert.name}
                     </h3>
                     <p className="text-sm text-muted-foreground mb-1">
