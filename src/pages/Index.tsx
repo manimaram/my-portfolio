@@ -18,11 +18,7 @@ const Index = () => {
             <span className="gradient-text">About Me</span>
           </h2>
           <div className="max-w-4xl mx-auto">
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              I'm a passionate computer science student with a strong interest in modern web technologies, 
-              cloud computing, and software development. I enjoy learning new technologies and building 
-              projects that solve real-world problems while continuously expanding my technical skills.
-            </p>
+            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">I am an Information Technology undergraduate passionate about building modern and impactful digital solutions. With strong expertise in frontend technologies like React, JavaScript, HTML, and CSS, I have developed responsive web applications that integrate real-time APIs and deliver seamless user experiences. My technical foundation includes Data Structures, Algorithms, OOP, and database management with MySQL, enabling me to write clean, efficient, and optimized code. I enjoy working on projects that combine creativity with problem-solving, from weather forecasting apps to language translators and canteen management systems. Continuously exploring new tools and frameworks, I aim to grow as a full-stack developer and contribute to building innovative, user-focused applications.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
               <div className="project-card text-center">
                 <div className="text-3xl font-bold text-primary mb-2">Information Technology</div>
