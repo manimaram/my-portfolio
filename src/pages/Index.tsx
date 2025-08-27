@@ -66,12 +66,10 @@ const Index = () => {
 
             {/* FULL STACK */}
             <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
-              <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center relative">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="#61DAFB" className="absolute top-0 left-0 group-hover:scale-110 transition-transform">
-                  <path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236z" />
-                </svg>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="#339933" className="absolute bottom-0 right-0 group-hover:scale-110 transition-transform">
-                  <path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383" />
+              <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="#4A90E2" className="group-hover:scale-110 transition-transform">
+                  <path d="M4 6h16v2H4zm0-4h16v2H4zm16 8v8c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2v-8h16zm-3 3H7v2h10v-2z"/>
+                  <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7l-2 3v1h8v-1l-2-3h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM21 16H3V4h18v12z"/>
                 </svg>
               </div>
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">FULL STACK</h3>
@@ -100,8 +98,9 @@ const Index = () => {
             {/* PYTHON */}
             <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
               <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="#3776AB" className="group-hover:scale-110 transition-transform">
-                  <path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05z" />
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" className="group-hover:scale-110 transition-transform">
+                  <path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.20-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.20.35-.14.33-.10.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z" fill="#306998"/>
+                  <path d="M9.75 23.82l-.9-.2-.73-.26-.59-.3-.45-.32-.34-.34-.25-.34-.16-.33-.1-.3-.04-.26-.02-.2.01-.13V15.5l.05-.63.13-.55.21-.46.26-.38.3-.31.33-.25.35-.19.35-.14.33-.1.3-.07.26-.04.21-.02h4.48l.69-.05.59-.14.5-.22.41-.27.33-.32.27-.35.2-.36.15-.37.1-.35.07-.32.04-.27.02-.21V9.94h2.92l.21.03.28.07.32.12.35.18.36.26.36.36.35.46.32.59.28.73.21.88.14 1.05.05 1.23-.06 1.22-.16 1.04-.24.87-.32.71-.36.57-.4.44-.42.33-.42.24-.4.16-.36.1-.32.05-.24.01h-.16l-.06-.01H9.82v.83h5.37l.01 2.75.02.37-.05.34-.11.31-.17.28-.25.26-.31.23-.38.2-.44.18-.51.15-.58.12-.64.1-.71.06-.77.04-.84.02-1.27-.05zm6.3-1.98l.23-.33.08-.41-.08-.41-.23-.34-.33-.22-.41-.09-.41.09-.33.22-.23.34-.08.41.08.41.23.33.33.22.41.09.41-.09z" fill="#FFD43B"/>
                 </svg>
               </div>
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">PYTHON</h3>
@@ -121,7 +120,11 @@ const Index = () => {
             <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
               <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="#336791" className="group-hover:scale-110 transition-transform">
-                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zM9.5 7c.828 0 1.5.672 1.5 1.5S10.328 10 9.5 10 8 9.328 8 8.5 8.672 7 9.5 7zm5 0c.828 0 1.5.672 1.5 1.5S15.328 10 14.5 10 13 9.328 13 8.5 13.672 7 14.5 7zM12 17.5c-3.038 0-5.5-1.346-5.5-3S8.962 11.5 12 11.5s5.5 1.346 5.5 3-2.462 3-5.5 3z" />
+                  <path d="M12 0C8.686 0 6 2.686 6 6v12c0 3.314 2.686 6 6 6s6-2.686 6-6V6c0-3.314-2.686-6-6-6zm4 18c0 2.21-1.79 4-4 4s-4-1.79-4-4V6c0-2.21 1.79-4 4-4s4 1.79 4 4v12z"/>
+                  <rect x="9" y="8" width="6" height="1" fill="#336791"/>
+                  <rect x="9" y="10" width="6" height="1" fill="#336791"/>
+                  <rect x="9" y="12" width="6" height="1" fill="#336791"/>
+                  <rect x="9" y="14" width="6" height="1" fill="#336791"/>
                 </svg>
               </div>
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">SQL</h3>
@@ -131,7 +134,10 @@ const Index = () => {
             <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
               <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="#61DAFB" className="group-hover:scale-110 transition-transform">
-                  <path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278z" />
+                  <circle cx="12" cy="12" r="2"/>
+                  <path d="M12,1C18.5,1 23,5.59 23,11.25V12.75C23,18.41 18.5,23 12,23C5.5,23 1,18.41 1,12.75V11.25C1,5.59 5.5,1 12,1M12,3.5C7,3.5 3.5,7.27 3.5,11.25V12.75C3.5,16.73 7,20.5 12,20.5C17,20.5 20.5,16.73 20.5,12.75V11.25C20.5,7.27 17,3.5 12,3.5Z" transform="rotate(0 12 12)"/>
+                  <path d="M12,1C18.5,1 23,5.59 23,11.25V12.75C23,18.41 18.5,23 12,23C5.5,23 1,18.41 1,12.75V11.25C1,5.59 5.5,1 12,1M12,3.5C7,3.5 3.5,7.27 3.5,11.25V12.75C3.5,16.73 7,20.5 12,20.5C17,20.5 20.5,16.73 20.5,12.75V11.25C20.5,7.27 17,3.5 12,3.5Z" transform="rotate(60 12 12)"/>
+                  <path d="M12,1C18.5,1 23,5.59 23,11.25V12.75C23,18.41 18.5,23 12,23C5.5,23 1,18.41 1,12.75V11.25C1,5.59 5.5,1 12,1M12,3.5C7,3.5 3.5,7.27 3.5,11.25V12.75C3.5,16.73 7,20.5 12,20.5C17,20.5 20.5,16.73 20.5,12.75V11.25C20.5,7.27 17,3.5 12,3.5Z" transform="rotate(-60 12 12)"/>
                 </svg>
               </div>
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">REACT</h3>
@@ -140,11 +146,14 @@ const Index = () => {
             {/* DSA */}
             <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
               <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="#FF6B6B" className="group-hover:scale-110 transition-transform">
-                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                  <circle cx="8" cy="12" r="2" fill="#4ECDC4" />
-                  <circle cx="16" cy="12" r="2" fill="#45B7D1" />
-                  <path d="M8 12h8M12 8v8" stroke="#2D3748" strokeWidth="2" strokeLinecap="round" />
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="#4A90E2" className="group-hover:scale-110 transition-transform">
+                  <circle cx="6" cy="6" r="3" fill="#4A90E2"/>
+                  <circle cx="18" cy="6" r="3" fill="#4A90E2"/>
+                  <circle cx="6" cy="18" r="3" fill="#4A90E2"/>
+                  <circle cx="18" cy="18" r="3" fill="#4A90E2"/>
+                  <circle cx="12" cy="12" r="2" fill="#FF6B6B"/>
+                  <path d="M9 6h6M6 9v6M18 9v6M9 18h6" stroke="#2D3748" strokeWidth="2" strokeLinecap="round"/>
+                  <path d="M9 9l6 6M15 9l-6 6" stroke="#2D3748" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
               </div>
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">DSA</h3>
