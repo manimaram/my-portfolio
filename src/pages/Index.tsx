@@ -150,6 +150,7 @@ const Index = () => {
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">DSA</h3>
             </div>
           </div>
+        </div>
       </section>
 
       {/* Certifications Section */}
