@@ -75,6 +75,21 @@ const Projects = () => {
       demo: "#",
       featured: true,
     },
+    {
+      title: "AI-Powered Trading Bot",
+      description:
+        "Intelligent cryptocurrency trading bot using machine learning algorithms for market analysis and automated trading strategies.",
+      tech: [
+        "Python",
+        "TensorFlow",
+        "Pandas",
+        "WebSocket",
+        "PostgreSQL",
+      ],
+      github: "#",
+      demo: "#",
+      featured: true,
+    },
   ];
 
   const featuredProjects = projects.filter((project) => project.featured);
@@ -96,11 +111,11 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Featured Projects */}
+        {/* Projects */}
         <section className="mb-20">
           <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
             <Star className="text-primary" size={32} />
-            Featured Projects
+            Projects
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {featuredProjects.map((project, index) => (
@@ -148,56 +163,6 @@ const Projects = () => {
           </div>
         </section>
 
-        {/* Other Projects */}
-        <section className="mb-20">
-          <h2 className="text-3xl font-bold mb-8">Other Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-            {regularProjects.map((project, index) => (
-              <div key={index} className="project-card group">
-                <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors mb-3">
-                  {project.title}
-                </h3>
-
-                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
-                  {project.description}
-                </p>
-
-                <div className="flex flex-wrap gap-1 mb-4">
-                  {project.tech.slice(0, 3).map((tech, techIndex) => (
-                    <span
-                      key={techIndex}
-                      className="px-2 py-1 bg-muted text-muted-foreground text-xs rounded"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                  {project.tech.length > 3 && (
-                    <span className="px-2 py-1 text-xs text-muted-foreground">
-                      +{project.tech.length - 3} more
-                    </span>
-                  )}
-                </div>
-
-                <div className="flex gap-2">
-                  <a
-                    href={project.github}
-                    className="flex items-center gap-1 px-3 py-1 text-sm bg-card border border-border rounded hover:border-primary hover:text-primary transition-all"
-                  >
-                    <Github size={14} />
-                    <span>Code</span>
-                  </a>
-                  <a
-                    href={project.demo}
-                    className="flex items-center gap-1 px-3 py-1 text-sm bg-primary/10 text-primary border border-primary/20 rounded hover:bg-primary/20 transition-all"
-                  >
-                    <ExternalLink size={14} />
-                    <span>Demo</span>
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
       </main>
     </div>
   );

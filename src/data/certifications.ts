@@ -41,5 +41,17 @@ export const certifications: Certification[] = [
     issuer: "MongoDB University",
     year: "2024",
     certificateUrl: "https://your-certificate-link-6"
+  },
+  {
+    name: "Microsoft Azure Developer Associate",
+    issuer: "Microsoft",
+    year: "2024",
+    certificateUrl: "https://your-certificate-link-7"
+  },
+  {
+    name: "Certified Ethical Hacker (CEH)",
+    issuer: "EC-Council",
+    year: "2023",
+    certificateUrl: "https://your-certificate-link-8"
   }
 ];
