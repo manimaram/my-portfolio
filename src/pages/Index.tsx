@@ -44,6 +44,22 @@ const Index = () => {
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+            {/* DSA */}
+            <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
+              <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="#4A90E2" className="group-hover:scale-110 transition-transform">
+                  <circle cx="6" cy="6" r="3" fill="#4A90E2"/>
+                  <circle cx="18" cy="6" r="3" fill="#4A90E2"/>
+                  <circle cx="6" cy="18" r="3" fill="#4A90E2"/>
+                  <circle cx="18" cy="18" r="3" fill="#4A90E2"/>
+                  <circle cx="12" cy="12" r="2" fill="#FF6B6B"/>
+                  <path d="M9 6h6M6 9v6M18 9v6M9 18h6" stroke="#2D3748" strokeWidth="2" strokeLinecap="round"/>
+                  <path d="M9 9l6 6M15 9l-6 6" stroke="#2D3748" strokeWidth="1.5" strokeLinecap="round"/>
+                </svg>
+              </div>
+              <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">DSA</h3>
+            </div>
+
             {/* HTML */}
             <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
               <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
@@ -143,20 +159,28 @@ const Index = () => {
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">REACT</h3>
             </div>
 
-            {/* DSA */}
+            {/* VS Code */}
             <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
               <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="#4A90E2" className="group-hover:scale-110 transition-transform">
-                  <circle cx="6" cy="6" r="3" fill="#4A90E2"/>
-                  <circle cx="18" cy="6" r="3" fill="#4A90E2"/>
-                  <circle cx="6" cy="18" r="3" fill="#4A90E2"/>
-                  <circle cx="18" cy="18" r="3" fill="#4A90E2"/>
-                  <circle cx="12" cy="12" r="2" fill="#FF6B6B"/>
-                  <path d="M9 6h6M6 9v6M18 9v6M9 18h6" stroke="#2D3748" strokeWidth="2" strokeLinecap="round"/>
-                  <path d="M9 9l6 6M15 9l-6 6" stroke="#2D3748" strokeWidth="1.5" strokeLinecap="round"/>
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="#007ACC" className="group-hover:scale-110 transition-transform">
+                  <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">DSA</h3>
+              <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">VS Code</h3>
+            </div>
+
+            {/* Figma */}
+            <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
+              <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" className="group-hover:scale-110 transition-transform">
+                  <path d="M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.667 3.333 3.333 0 0 0 0 6.665 3.333 3.333 0 1 0 3.332-3.332V8.668Z" fill="#1ABCFE"/>
+                  <path d="M8.668 8.668a3.333 3.333 0 1 1-3.332-3.333 3.333 3.333 0 0 1 3.332 3.333" fill="#0ACF83"/>
+                  <path d="M8.668 15.333a3.333 3.333 0 1 1-3.332-3.332 3.333 3.333 0 0 1 3.332 3.332" fill="#FF62F2"/>
+                  <path d="M8.668 22.001a3.333 3.333 0 1 1-3.332-3.333 3.333 3.333 0 0 1 3.332 3.333" fill="#FF5C00"/>
+                  <path d="M15.332 12.001a3.333 3.333 0 1 1-3.332-3.333 3.333 3.333 0 0 1 3.332 3.333" fill="#F24E1E"/>
+                </svg>
+              </div>
+              <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">Figma</h3>
             </div>
 
             {/* OOPs */}
