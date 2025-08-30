@@ -332,6 +332,40 @@ const Index = () => {
                 </div>
               </div>
             </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award size={24} className="text-background" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">JAVASCRIPT FUNDAMENTALS</h3>
+                  <p className="text-sm text-muted-foreground mb-1">Issued by FreeCodeCamp</p>
+                  <p className="text-xs text-muted-foreground mb-3">March 2025</p>
+                  <button onClick={() => window.open('https://your-certificate-link-7', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                    <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
+                    <span>Access Certificate</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div className="project-card group hover:border-primary/50 transition-all duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award size={24} className="text-background" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">PYTHON PROGRAMMING</h3>
+                  <p className="text-sm text-muted-foreground mb-1">Issued by Coursera</p>
+                  <p className="text-xs text-muted-foreground mb-3">February 2025</p>
+                  <button onClick={() => window.open('https://your-certificate-link-8', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                    <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
+                    <span>Access Certificate</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
