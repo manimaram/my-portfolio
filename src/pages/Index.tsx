@@ -173,11 +173,11 @@ const Index = () => {
             <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
               <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" className="group-hover:scale-110 transition-transform">
-                  <path d="M5.5 0A5.5 5.5 0 0 0 11 5.5V11h5.5a5.5 5.5 0 1 0 0-11H5.5Z" fill="#1ABCFE"/>
-                  <path d="M0 5.5A5.5 5.5 0 0 1 5.5 0H11v11H5.5A5.5 5.5 0 0 1 0 5.5Z" fill="#0ACF83"/>
-                  <path d="M0 16.5A5.5 5.5 0 0 1 5.5 11H11v5.5a5.5 5.5 0 1 1-11 0Z" fill="#FF62F2"/>
-                  <path d="M11 11h5.5a5.5 5.5 0 1 1 0 11H11V11Z" fill="#F24E1E"/>
-                  <path d="M11 5.5A5.5 5.5 0 1 1 22 5.5 5.5 5.5 0 0 1 11 5.5Z" fill="#FF5C00"/>
+                  <path d="M8 24c2.208 0 4-1.792 4-4v-4H8c-2.208 0-4 1.792-4 4s1.792 4 4 4z" fill="#0ACF83"/>
+                  <path d="M4 12c0-2.208 1.792-4 4-4h4v8H8c-2.208 0-4-1.792-4-4z" fill="#A259FF"/>
+                  <path d="M4 4c0-2.208 1.792-4 4-4h4v8H8C5.792 8 4 6.208 4 4z" fill="#F24E1E"/>
+                  <path d="M12 8h4c2.208 0 4-1.792 4-4s-1.792-4-4-4h-4v8z" fill="#FF7262"/>
+                  <path d="M20 12c0 2.208-1.792 4-4 4s-4-1.792-4-4 1.792-4 4-4 4 1.792 4 4z" fill="#1ABCFE"/>
                 </svg>
               </div>
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">Figma</h3>
