@@ -173,11 +173,11 @@ const Index = () => {
             <div className="project-card group hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 text-center p-6">
               <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" className="group-hover:scale-110 transition-transform">
-                  <path d="M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.667 3.333 3.333 0 0 0 0 6.665 3.333 3.333 0 1 0 3.332-3.332V8.668Z" fill="#1ABCFE"/>
-                  <path d="M8.668 8.668a3.333 3.333 0 1 1-3.332-3.333 3.333 3.333 0 0 1 3.332 3.333" fill="#0ACF83"/>
-                  <path d="M8.668 15.333a3.333 3.333 0 1 1-3.332-3.332 3.333 3.333 0 0 1 3.332 3.332" fill="#FF62F2"/>
-                  <path d="M8.668 22.001a3.333 3.333 0 1 1-3.332-3.333 3.333 3.333 0 0 1 3.332 3.333" fill="#FF5C00"/>
-                  <path d="M15.332 12.001a3.333 3.333 0 1 1-3.332-3.333 3.333 3.333 0 0 1 3.332 3.333" fill="#F24E1E"/>
+                  <path d="M5.5 0A5.5 5.5 0 0 0 11 5.5V11h5.5a5.5 5.5 0 1 0 0-11H5.5Z" fill="#1ABCFE"/>
+                  <path d="M0 5.5A5.5 5.5 0 0 1 5.5 0H11v11H5.5A5.5 5.5 0 0 1 0 5.5Z" fill="#0ACF83"/>
+                  <path d="M0 16.5A5.5 5.5 0 0 1 5.5 11H11v5.5a5.5 5.5 0 1 1-11 0Z" fill="#FF62F2"/>
+                  <path d="M11 11h5.5a5.5 5.5 0 1 1 0 11H11V11Z" fill="#F24E1E"/>
+                  <path d="M11 5.5A5.5 5.5 0 1 1 22 5.5 5.5 5.5 0 0 1 11 5.5Z" fill="#FF5C00"/>
                 </svg>
               </div>
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">Figma</h3>
