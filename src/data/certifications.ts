@@ -53,5 +53,17 @@ export const certifications: Certification[] = [
     issuer: "EC-Council",
     year: "2023",
     certificateUrl: "https://your-certificate-link-8"
+  },
+  {
+    name: "Oracle Database Administration Certified Professional",
+    issuer: "Oracle Corporation",
+    year: "2024",
+    certificateUrl: "https://your-certificate-link-9"
+  },
+  {
+    name: "Cisco Certified Network Associate (CCNA)",
+    issuer: "Cisco Systems",
+    year: "2023",
+    certificateUrl: "https://your-certificate-link-10"
   }
 ];
