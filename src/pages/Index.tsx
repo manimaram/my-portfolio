@@ -378,57 +378,34 @@ const Index = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
-              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
-                Dean's List
-              </h3>
-              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                Recognized for academic excellence with GPA above 3.8
-              </p>
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors"> Merit Scholarship Recipient</h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed"> Awarded 50,000 consecutively for two years in recognition of outstanding
+ academic performance.</p>
             </div>
             
             <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
-              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
-                Hackathon Winner
-              </h3>
-              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                First place in University Tech Innovation Challenge
-              </p>
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">TANA DEBATE WINNER</h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">secured 1st prize in the debate organised by Telugu Associsation of North America</p>
             </div>
             
             <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
-              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
-                Open Source Contributor
-              </h3>
-              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                Active contributor to multiple GitHub projects with 100+ commits
-              </p>
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">Best Debate Awardee</h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">Awarded the Best Debate Title by TV9</p>
             </div>
             
             <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
-              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
-                Technical Blog Writer
-              </h3>
-              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                Published 15+ technical articles on modern web development
-              </p>
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">Top 1%</h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">Consistently ranked in the top 1% of the branch for 2 consecutive academic years</p>
             </div>
             
             <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
-              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
-                Student Leader
-              </h3>
-              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                Led Computer Science Student Association initiatives
-              </p>
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">Designer & PR lead</h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">Have been working continuously for the past 2 years with CSAC in the domains of Designing and Publicity.</p>
             </div>
             
             <div className="project-card group hover:border-primary/50 transition-all duration-300 text-center">
-              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
-                Scholarship Recipient
-              </h3>
-              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                Merit-based scholarship for outstanding academic performance
-              </p>
+              <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">Comprehensive Speaker</h3>
+              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">Honored by the Narayana Group of Institutions</p>
             </div>
           </div>
         </div>
