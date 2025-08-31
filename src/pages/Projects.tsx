@@ -4,27 +4,27 @@ import Navigation from "@/components/Navigation";
 const Projects = () => {
   const projects = [
     {
-      title: "AI-Powered Analytics Dashboard",
+      title: " Weather forecasting",
       description:
-        "A comprehensive dashboard built with React and TensorFlow.js that provides real-time data analytics with machine learning insights.",
+        "Developed a responsive weather forecasting web app using React,integrating real-time weather data from an external API.",
       tech: [
         "React",
-        "TypeScript",
-        "TensorFlow.js",
-        "D3.js",
-        "Node.js",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "API",
       ],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/manimaram/weather-forecasting",
+      demo: "https://manimaram.github.io/weather-forecasting/",
       featured: true,
     },
     {
-      title: "Blockchain Voting System",
+      title: " Translexi",
       description:
-        "Secure and transparent voting platform using Ethereum smart contracts with React frontend and Web3 integration.",
-      tech: ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
-      github: "#",
-      demo: "#",
+        " Implemented intuitive user flows and branding with the tagline “Translate. Connect. Communicate.” for enhanced user engagement.",
+      tech: ["React", "HTML", "CSS", "JavaScript", "External API"],
+      github: "https://github.com/manimaram/Translex",
+      demo: "https://manimaram.github.io/Translex/",
       featured: true,
     },
     {
@@ -60,31 +60,16 @@ const Projects = () => {
       demo: "#",
       featured: false,
     },
+    
     {
-      title: "Microservices E-commerce",
+      title: " Arogya sreenidhi",
       description:
-        "Scalable e-commerce platform built with microservices architecture, featuring payment integration and inventory management.",
+        "Designed and developed a user-friendly food ordering web app with real-time order tracking, cashless payments, and automated alerts, streamlining canteen operations.",
       tech: [
-        "Spring Boot",
-        "Docker",
-        "Kubernetes",
-        "PostgreSQL",
-        "Stripe",
-      ],
-      github: "#",
-      demo: "#",
-      featured: true,
-    },
-    {
-      title: "AI-Powered Trading Bot",
-      description:
-        "Intelligent cryptocurrency trading bot using machine learning algorithms for market analysis and automated trading strategies.",
-      tech: [
-        "Python",
-        "TensorFlow",
-        "Pandas",
-        "WebSocket",
-        "PostgreSQL",
+        "Figma",
+        "Canva",
+        "Photo Shop",
+        "poster my wall",
       ],
       github: "#",
       demo: "#",

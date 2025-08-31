@@ -240,7 +240,7 @@ const Index = () => {
                   <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">FULL STACK WEB DEVELOPMENT</h3>
                   <p className="text-sm text-muted-foreground mb-1">Issued by Edu Skills</p>
                   <p className="text-xs text-muted-foreground mb-3">July 2025</p>
-                  <button onClick={() => window.open('https://your-certificate-link-1', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1qoQJirQsO9vnW6ZWpH1w_FWasWBvGPj9/view?usp=sharing', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
                   </button>
@@ -257,7 +257,7 @@ const Index = () => {
                   <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">COMPUTER HARDWARE</h3>
                   <p className="text-sm text-muted-foreground mb-1">Issued by Cisco</p>
                   <p className="text-xs text-muted-foreground mb-3">May 2025</p>
-                  <button onClick={() => window.open('https://your-certificate-link-2', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1FXP182F_exCU5cnsPJEA8eLTVDyRUHuH/view?usp=sharing', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
                   </button>
@@ -274,7 +274,7 @@ const Index = () => {
                   <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">AI TOOLS EXPERT</h3>
                   <p className="text-sm text-muted-foreground mb-1">Issued by Be 10x</p>
                   <p className="text-xs text-muted-foreground mb-3">May 2025</p>
-                  <button onClick={() => window.open('https://your-certificate-link-3', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1n4FNiOXMq5KjKLNJ5l_jAML8leLzJntK/view?usp=sharing', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
                   </button>
@@ -291,7 +291,7 @@ const Index = () => {
                   <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">LANGUAGE PROFICENCY CERTIFICATE</h3>
                   <p className="text-sm text-muted-foreground mb-1">Issued by EF SET</p>
                   <p className="text-xs text-muted-foreground mb-3">May 2025</p>
-                  <button onClick={() => window.open('https://your-certificate-link-4', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1XIi_NF4k07dtDT7yfnXH2Kmk9-U9ZCdK/view?usp=sharing', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
                   </button>
@@ -308,7 +308,7 @@ const Index = () => {
                   <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">HTML</h3>
                   <p className="text-sm text-muted-foreground mb-1">Issued by Simplilearn</p>
                   <p className="text-xs text-muted-foreground mb-3">April 2025</p>
-                  <button onClick={() => window.open('https://your-certificate-link-5', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                  <button onClick={() => window.open('https://drive.google.com/file/d/10mG9ylr83aRL8jeC5ArybY_fabOYQBmD/view?usp=sharing', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
                   </button>
@@ -325,7 +325,7 @@ const Index = () => {
                   <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">CSS</h3>
                   <p className="text-sm text-muted-foreground mb-1">Issued by Simplilearn</p>
                   <p className="text-xs text-muted-foreground mb-3">April 2025</p>
-                  <button onClick={() => window.open('https://your-certificate-link-6', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1ILiERoz1Nv9Bv42o4FFoONi47IxkqMko/view?usp=sharing', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
                   </button>
@@ -339,10 +339,10 @@ const Index = () => {
                   <Award size={24} className="text-background" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">JAVASCRIPT FUNDAMENTALS</h3>
+                  <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">Linux Unhatched</h3>
                   <p className="text-sm text-muted-foreground mb-1">Issued by Cisco</p>
                   <p className="text-xs text-muted-foreground mb-3">May 2025</p>
-                  <button onClick={() => window.open('https://your-certificate-link-7', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1F4lxy_VNW9fB2-LziCtLLDEvspnf5bf7/view?usp=sharing', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
                   </button>
@@ -359,7 +359,7 @@ const Index = () => {
                   <h3 className="font-bold text-primary mb-1 hover:text-primary/80 transition-colors">Problem Solving Using C</h3>
                   <p className="text-sm text-muted-foreground mb-1">Issued by CodeTantra</p>
                   <p className="text-xs text-muted-foreground mb-3">May 2024</p>
-                  <button onClick={() => window.open('https://your-certificate-link-8', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1Uu5A63fowXBpcqoDWSYtro5EXGFfUAi4/view?usp=sharing', '_blank')} className="inline-flex items-center space-x-2 text-sm bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md transition-colors group/btn">
                     <ExternalLink size={14} className="group-hover/btn:scale-110 transition-transform" />
                     <span>Access Certificate</span>
                   </button>
@@ -423,7 +423,7 @@ const Index = () => {
           
           {/* Social Connect Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="btn-hero glow-border group">
+            <a href="https://www.linkedin.com/in/mvsnagamani/" target="_blank" rel="noopener noreferrer" className="btn-hero glow-border group">
               <span className="flex items-center space-x-3">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="group-hover:scale-110 transition-transform">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
@@ -432,7 +432,7 @@ const Index = () => {
               </span>
             </a>
             
-            <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer" className="btn-hero glow-border group">
+            <a href="https://www.instagram.com/mani_maram__?igsh=c2s2c29iMjI4emZ2" target="_blank" rel="noopener noreferrer" className="btn-hero glow-border group">
               <span className="flex items-center space-x-3">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="group-hover:scale-110 transition-transform">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
@@ -441,7 +441,7 @@ const Index = () => {
               </span>
             </a>
             
-            <a href="mailto:your.email@example.com" className="btn-hero glow-border group">
+            <a href="mailto:manimaram781@gmail.com" className="btn-hero glow-border group">
               <span className="flex items-center space-x-3">
                 <Mail size={24} className="group-hover:scale-110 transition-transform" />
                 <span>Gmail</span>
@@ -452,7 +452,7 @@ const Index = () => {
           {/* Alternative Contact Methods */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12">
             
-            <button onClick={() => window.open('https://drive.google.com/your-resume-link', '_blank')} className="btn-hero glow-border group">
+            <button onClick={() => window.open('https://drive.google.com/file/d/1byIKRvPVr0AeK7jfsCkGIHhGEzpvoXna/view?usp=sharing', '_blank')} className="btn-hero glow-border group">
               <span className="flex items-center space-x-2">
                 <FileText size={20} />
                 <span>Download Resume</span>

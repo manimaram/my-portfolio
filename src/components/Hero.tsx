@@ -35,7 +35,7 @@ const Hero = () => {
             </span>
           </Link>
           
-          <Link to="/contact" className="btn-hero glow-border group">
+          <Link to="https://www.linkedin.com/in/mvsnagamani/" className="btn-hero glow-border group">
             <span className="flex items-center space-x-2">
               <Mail size={20} />
               <span>Get In Touch</span>

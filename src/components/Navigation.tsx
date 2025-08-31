@@ -36,7 +36,7 @@ const Navigation = () => {
     isRoute: false
   }, {
     name: "Resume",
-    path: "https://drive.google.com/your-resume-link",
+    path: "https://drive.google.com/file/d/1byIKRvPVr0AeK7jfsCkGIHhGEzpvoXna/view?usp=sharing",
     icon: FileText,
     isRoute: false
   }];
